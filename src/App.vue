@@ -1,9 +1,9 @@
 <script>
-export default{
-   data (){
-      return {
+import appTitle from './components/appTitle.vue'
 
-      }
+export default{
+   components: {
+      appTitle
    }
 }
 </script>
@@ -12,6 +12,7 @@ export default{
   <h1>
    Hello Vite
   </h1>
+  <appTitle />
 </template>
 
 <style scoped>
